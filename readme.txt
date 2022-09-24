@@ -11,3 +11,10 @@ To run demo compile the mod files (mknrndll (mswin and mac) or
 nrnivmodl (linux/unix) start cc_run.hoc with the method appropriate to
 your platform (double click (mswin),drag and drop onto nrngui icon
 (mac) or "nrngui cc_run.hoc" on the command line (unix/linux).
+
+Changelog
+=========
+
+* 20220924: Update MOD files to avoid declaring variables and functions with the same name.
+  See https://github.com/neuronsimulator/nrn/pull/1992
+
